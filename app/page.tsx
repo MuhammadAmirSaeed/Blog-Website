@@ -7,9 +7,11 @@ export default function Home() {
   return (
     <PaddingContainer>
     <main className='h-auto space-y-10'>
-    <div>
+    
       <Posts post={DUMMY_POSTS[0]} /> 
-    </div>
+      <Posts  post={DUMMY_POSTS[1] } />
+      <Posts layout='vertical' post={DUMMY_POSTS[3] } />
+    
    
     </main>
     </PaddingContainer>
